@@ -115,7 +115,7 @@ type ChatCompletion struct {
 	// Object is the type of object (always "chat.completion").
 	Object string `json:"object"`
 	// Created is the Unix timestamp of creation.
-	Created int64 `json:"created"`
+	Created float64 `json:"created"`
 	// Model is the model used for the completion.
 	Model string `json:"model"`
 	// Choices is the list of chat completion choices.
@@ -195,7 +195,7 @@ type TimeInfo struct {
 	// TotalTime is the total request time (seconds).
 	TotalTime float64 `json:"total_time"`
 	// Created is the Unix timestamp of creation.
-	Created int64 `json:"created"`
+	Created float64 `json:"created"`
 }
 
 // Logprobs represents log probability information for a choice.
@@ -237,7 +237,7 @@ type Model struct {
 	// Object is the type of object (always "model").
 	Object string `json:"object"`
 	// Created is the Unix timestamp of creation.
-	Created int64 `json:"created"`
+	Created float64 `json:"created"`
 	// OwnedBy is the organization that owns the model.
 	OwnedBy string `json:"owned_by"`
 }
@@ -261,7 +261,7 @@ type StreamResponse struct {
 	// Object is the type of object (always "chat.completion.chunk").
 	Object string `json:"object"`
 	// Created is the Unix timestamp of creation.
-	Created int64 `json:"created"`
+	Created float64 `json:"created"`
 	// Model is the model used for the completion.
 	Model string `json:"model"`
 	// Choices is the list of streaming choices.

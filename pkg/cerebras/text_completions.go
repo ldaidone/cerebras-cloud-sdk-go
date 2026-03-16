@@ -83,7 +83,7 @@ type TextCompletion struct {
 	// Object is the type of object (always "text_completion").
 	Object string `json:"object"`
 	// Created is the Unix timestamp of creation.
-	Created int64 `json:"created"`
+	Created float64 `json:"created"`
 	// Model is the model used for the completion.
 	Model string `json:"model"`
 	// Choices is the list of completion choices.
@@ -113,7 +113,7 @@ type TextCompletionStreamResponse struct {
 	// Object is the type of object (always "text_completion.chunk").
 	Object string `json:"object"`
 	// Created is the Unix timestamp of creation.
-	Created int64 `json:"created"`
+	Created float64 `json:"created"`
 	// Model is the model used for the completion.
 	Model string `json:"model"`
 	// Choices is the list of streaming choices.
