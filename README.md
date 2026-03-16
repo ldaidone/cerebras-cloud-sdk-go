@@ -1,5 +1,6 @@
 ## Cerebras Cloud SDK for Go
 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Go Reference](https://pkg.go.dev/badge/github.com/ldaidone/cerebras-go.svg)](https://pkg.go.dev/github.com/ldaidone/cerebras-cloud-sdk-go)
 [![Go Report Card](https://goreportcard.com/badge/github.com/ldaidone/cerebras-go)](https://goreportcard.com/report/github.com/ldaidone/cerebras-cloud-sdk-go)
 
