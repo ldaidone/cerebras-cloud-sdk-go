@@ -218,3 +218,8 @@ We welcome contributions! Please see our [Spec-Driven Development](https://www.g
 ## License
 
 Apache License 2.0
+
+## Support
+
+If this saves you time or helps your AI project, consider starring ⭐
+and consider [buying me a coffee](https://www.buymeacoffee.com/leodaido)! ☕️ — it keeps the ideas flowing!
