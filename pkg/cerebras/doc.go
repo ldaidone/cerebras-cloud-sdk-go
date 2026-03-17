@@ -4,11 +4,11 @@
 //
 // Install the SDK:
 //
-//	go get github/ldaidone/cerebras-cloud-sdk-go
+//	go get github.com/ldaidone/cerebras-cloud-sdk-go
 //
 // Create a client:
 //
-//	import "github/ldaidone/cerebras-cloud-sdk-go/pkg/cerebras"
+//	import "github.com/ldaidone/cerebras-cloud-sdk-go/pkg/cerebras"
 //
 //	client := cerebras.NewClient(
 //	    cerebras.WithAPIKey("your-api-key"),
@@ -59,7 +59,7 @@
 //
 // The SDK provides custom error types for programmatic error handling:
 //
-//	import "github/ldaidone/cerebras-cloud-sdk-go/internal/errors"
+//	import "github.com/ldaidone/cerebras-cloud-sdk-go/internal/errors"
 //
 //	_, err := client.Get(ctx, "/v1/some-endpoint", &result)
 //	if err != nil {

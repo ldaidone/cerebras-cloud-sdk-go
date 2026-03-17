@@ -9,7 +9,7 @@ import (
 	"io"
 	"strings"
 
-	cerebraserrors "github/ldaidone/cerebras-cloud-sdk-go/internal/errors"
+	cerebraserrors "github.com/ldaidone/cerebras-cloud-sdk-go/internal/errors"
 )
 
 // readSSEStream reads from an HTTP response body and parses SSE events.

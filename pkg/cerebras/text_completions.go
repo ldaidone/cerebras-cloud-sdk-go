@@ -29,8 +29,8 @@ import (
 	"net/http"
 	"strings"
 
-	cerebraserrors "github/ldaidone/cerebras-cloud-sdk-go/internal/errors"
-	"github/ldaidone/cerebras-cloud-sdk-go/internal/transport"
+	cerebraserrors "github.com/ldaidone/cerebras-cloud-sdk-go/internal/errors"
+	"github.com/ldaidone/cerebras-cloud-sdk-go/internal/transport"
 )
 
 // TextCompletionRequest represents a request to the text completions endpoint.

@@ -1,7 +1,7 @@
 ## Cerebras Cloud SDK for Go
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/ldaidone/cerebras-go.svg)](https://pkg.go.dev/github.com/ldaidone/cerebras-cloud-sdk-go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/ldaidone/cerebras-go)](https://goreportcard.com/report/github.com/ldaidone/cerebras-cloud-sdk-go)
+[![Go Reference](https://pkg.go.dev/badge/github.com/ldaidone/cerebras-cloud-sdk-go.svg)](https://pkg.go.dev/github.com/ldaidone/cerebras-cloud-sdk-go/pkg/cerebras)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ldaidone/cerebras-cloud-sdk-go)](https://goreportcard.com/report/github.com/ldaidone/cerebras-cloud-sdk-go)
 
 The Cerebras Cloud Go SDK provides a high-performance, type-safe interface to the Cerebras Cloud API. This library is built for backend reliability, leveraging Go's native concurrency for streaming and strictly avoiding heavy dependencies.
 

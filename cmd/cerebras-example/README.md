@@ -145,11 +145,11 @@ After trying the examples, you can:
 1. Copy the code patterns into your project
 2. Modify the examples for your use case
 3. Explore the full API in `pkg/cerebras/`
-4. Read the full documentation at https://pkg.go.dev/github/ldaidone/cerebras-cloud-sdk-go
+4. Read the full documentation at https://pkg.go.dev/github.com/ldaidone/cerebras-cloud-sdk-go
 
 ## Support
 
 For issues or questions:
 - Check the main README.md
-- Review GoDoc: https://pkg.go.dev/github/ldaidone/cerebras-cloud-sdk-go/pkg/cerebras
+- Review GoDoc: https://pkg.go.dev/github.com/ldaidone/cerebras-cloud-sdk-go/pkg/cerebras
 - See the COMPLETE.md for full feature list

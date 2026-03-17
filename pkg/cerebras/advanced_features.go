@@ -9,7 +9,7 @@ import (
 	"io"
 	"net/http"
 
-	cerebraserrors "github/ldaidone/cerebras-cloud-sdk-go/internal/errors"
+	cerebraserrors "github.com/ldaidone/cerebras-cloud-sdk-go/internal/errors"
 )
 
 // ServiceTier represents the service tier for request prioritization.

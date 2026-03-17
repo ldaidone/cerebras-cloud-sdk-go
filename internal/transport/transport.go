@@ -29,7 +29,7 @@ import (
 	"sync"
 	"time"
 
-	cerebraserrors "github/ldaidone/cerebras-cloud-sdk-go/internal/errors"
+	cerebraserrors "github.com/ldaidone/cerebras-cloud-sdk-go/internal/errors"
 )
 
 // Default configuration values.

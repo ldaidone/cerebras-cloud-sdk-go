@@ -36,7 +36,7 @@ import (
 	"os"
 	"time"
 
-	"github/ldaidone/cerebras-cloud-sdk-go/pkg/cerebras"
+	"github.com/ldaidone/cerebras-cloud-sdk-go/pkg/cerebras"
 )
 
 func main() {

@@ -30,7 +30,7 @@ import (
 	"os"
 	"time"
 
-	"github/ldaidone/cerebras-cloud-sdk-go/internal/transport"
+	"github.com/ldaidone/cerebras-cloud-sdk-go/internal/transport"
 )
 
 // Default configuration values.

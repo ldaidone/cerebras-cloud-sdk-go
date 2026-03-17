@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"github/ldaidone/cerebras-cloud-sdk-go/pkg/cerebras"
+	"github.com/ldaidone/cerebras-cloud-sdk-go/pkg/cerebras"
 )
 
 // ExampleNewClient demonstrates basic client creation.
