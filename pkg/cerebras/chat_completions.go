@@ -28,6 +28,7 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"strings"
 
 	cerebraserrors "github/ldaidone/cerebras-cloud-sdk-go/internal/errors"
 	"github/ldaidone/cerebras-cloud-sdk-go/internal/transport"
@@ -81,19 +82,22 @@ func WithTopP(p float64) ChatCompletionOption {
 
 // WithStop sets stop sequences where the API will stop generating tokens.
 // Up to 4 sequences can be specified.
+//
+// Performance: Uses strings.Builder for efficient string concatenation.
 func WithStop(sequences ...string) ChatCompletionOption {
 	return func(req *ChatCompletionRequest) {
 		if len(sequences) == 1 {
 			req.Stop = PtrString(sequences[0])
 		} else if len(sequences) > 1 {
-			joined := ""
+			// Use strings.Builder for efficient concatenation
+			var builder strings.Builder
 			for i, s := range sequences {
 				if i > 0 {
-					joined += ","
+					builder.WriteString(",")
 				}
-				joined += s
+				builder.WriteString(s)
 			}
-			req.Stop = PtrString(joined)
+			req.Stop = PtrString(builder.String())
 		}
 	}
 }

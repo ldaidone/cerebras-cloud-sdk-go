@@ -1,8 +1,4 @@
-# Capability: HTTP Transport
-
-The HTTP transport capability provides a robust HTTP client wrapper with retry logic, timeout handling, connection management, and performance optimizations.
-
-## Requirements
+## MODIFIED Requirements
 
 ### Requirement: HTTP client wrapper
 The system SHALL provide an internal HTTP transport layer that wraps `net/http.Client` with optimized connection pooling and performance settings.
